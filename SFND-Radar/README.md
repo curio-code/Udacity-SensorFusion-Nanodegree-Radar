@@ -34,3 +34,4 @@ end
     * offset = **5**
    
 ## Suppression of the non-thresholded cells at the edges
+For the final output of CFAR ```signal_cfar``` I inherently considered a zeros matrix of the dimension of RDM ```zeros(Nr/2,Nd)```, so in the end I don't have to consider the cells at the edges.
