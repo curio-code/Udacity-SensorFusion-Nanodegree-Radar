@@ -9,7 +9,9 @@ Following task to be completed in this project:-
 4. Perform Range FFT on the received signal to determine the Range
 5. Towards the end, perform the CFAR processing on the output of 2nd FFT to display the target.
 
-
+## 2D - FFT
+MATLAB inbuilt funtion was utlilized for this purpose ```sig_fft2 = fft2(Mix,Nr,Nd)```
+![alt text](https://github.com/curio-code/Udacity-SensorFusion-Nanodegree-Radar/blob/master/media/2dfft.png)
 
 ## Implemenation of 2D-CFAR
 1. Looping through every Cell under test (CUT)
