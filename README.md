@@ -1,4 +1,6 @@
 # SFND Radar Final Project
+## Project Outline
+![alt text](https://github.com/curio-code/Udacity-SensorFusion-Nanodegree-Radar/blob/master/media/projectOutline.png)
 
 ## Implemenation of 2D-CFAR
 1. Looping through every Cell under test (CUT)
