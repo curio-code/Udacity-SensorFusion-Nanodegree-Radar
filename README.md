@@ -9,6 +9,8 @@ for i   = T_h+G_h+1:Nr/2-T_h-G_h
     for j = T_v+G_v+1:Nd-T_v-G_v
 ```
   * here ```T_h```, ```T_v``` are the training cells ```G_h```, ```G_v``` are gaurds cells around the CUT.
+![alt text](https://github.com/curio-code/Udacity-SensorFusion-Nanodegree-Radar/blob/master/media/2dcfar_cell.png)
+
 2. Calculating the noise in the training cells around the CUT.
 ```
 S1 = sum(db2pow(RDM(i-T_h-G_h:i+T_h+G_h, j-T_v-G_v:j+T_v+G_v)),[1 2]);    
