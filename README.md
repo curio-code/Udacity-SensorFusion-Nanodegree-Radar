@@ -2,12 +2,12 @@
 ## Project Outline
 ![alt text](https://github.com/curio-code/Udacity-SensorFusion-Nanodegree-Radar/blob/master/media/projectOutline.png)
 
-Following task to be completed in this project:-
-1. Configure the FMCW waveform based on the system requirements.
-2. Define the range and velocity of target and simulate its displacement.
-3. For the same simulation loop process the transmit and receive signal to determine the beat signal
-4. Perform Range FFT on the received signal to determine the Range
-5. Towards the end, perform the CFAR processing on the output of 2nd FFT to display the target.
+Following task were completed in this project:-
+1. Configured the FMCW waveform based on the system requirements.
+2. Defined the range and velocity of target and simulate its displacement.
+3. For the same simulation loop processed the transmit and receive signal to determine the beat signal
+4. Performed Range FFT on the received signal to determine the Range
+5. Towards the end, performed the CFAR processing on the output of 2nd FFT to display the target.
 
 ## 2D - FFT
 MATLAB inbuilt funtion was utlilized for this purpose ```sig_fft2 = fft2(Mix,Nr,Nd)```
